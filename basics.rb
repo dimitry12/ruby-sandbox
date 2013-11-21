@@ -1,3 +1,7 @@
+puts 10.to_s
+puts 10,230 + 15,000 # comma here is not part of the integer
+puts 10_230 + 15_000 # underscore can be used for readability
+
 puts "here is 2*2=#{2*2}" # double-quotes support expression interpolation
 
 # nice parsing!
